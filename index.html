@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Todo List App</title>
+</head>
+<div class="bodycontainer">
+<header>
+<h1>Todo List</h1>
+<hr class="solid">
+<div class="buttons">
+    <button class="tools" id="deleteAll">Delete All</button>
+    <button class="tools" id="additem">Add Item</button>
+    <button class="tools" id="deleteitem">Delete Item</button>
+</div>
+<hr class="solid">
+</header>
+<body>
+    <main>
+        <div class="content">
+            <h2>Things to Do:</h2>
+            <div class="container" id="container">
+            <label for="toadd">Task to add:</label>
+            <textarea name="toadd" id="toadd"></textarea>
+            <ul id="list">
+                <li>Water Plants</li>
+                <li>Wash Laundry</li>
+                <li>Have a Coffee</li>
+            </ul>
+            </div>
+        </div>
+        <footer>
+            <img src="./assets/LogoWhite.svg" alt="Martin Holland Logo" id="logo">
+        </footer>
+    </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
